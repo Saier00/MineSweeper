@@ -18,7 +18,7 @@
 			</div>
 			<div style="float:left;margin-right:20px;">
 				<label class="label-input" for="mines">Mines:</label>
-				<input type="text" class="label-input" placeholder="YTitles" id="mines"/>
+				<input type="text" class="label-input" placeholder="Mines" id="mines"/>
 			</div>
 			<div style="float:left;margin-right:20px;">
 				<input type="button" id="refresh" value="Refresh" style="height: 45px;"/>
