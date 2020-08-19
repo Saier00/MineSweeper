@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+</head>
+
+<body>
+	<div id="content">
+		<div id="menu">
+			<div style="float:left;margin-right:20px;">
+				<label class="label-input" for="x">Horizontal titles:</label>
+				<input type="text" class="label-input" placeholder="XTitles" id="x"/>
+			</div>
+			<div style="float:left;margin-right:20px;">
+				<label class="label-input" for="y">Vertical titles:</label>
+				<input type="text" class="label-input" placeholder="YTitles" id="y"/>
+			</div>
+			<div style="float:left;margin-right:20px;">
+				<label class="label-input" for="mines">Mines:</label>
+				<input type="text" class="label-input" placeholder="YTitles" id="mines"/>
+			</div>
+			<div style="float:left;margin-right:20px;">
+				<input type="button" id="refresh" value="Refresh" style="height: 45px;"/>
+			</div>
+		</div>
+		<div id="field"></div>
+	</div>
+	<link href="../css/ViewStyles.css" rel="stylesheet" type="text/css">
+	<link href="../css/Classes.css" rel="stylesheet" type="text/css">
+	<script src="../js/Classes.js"></script>
+	<script src="../js/Field.js"></script>
+
+	<script type="text/javascript">
+		let btn=document.getElementById("refresh");
+
+		btn.onclick=function(){
+			let obj={
+				sqsX:+document.getElementById("x").value,
+				sqsY:+document.getElementById("y").value,
+				mines:+document.getElementById("mines").value
+			};
+
+			field.changeFieldProperties(obj);
+
+			field.buildField();
+		};
+	</script>
+</body>
+
+</html>

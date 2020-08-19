@@ -1,0 +1,80 @@
+table{
+	border: 1px solid #ccc;
+}
+tr{
+	border: 1px solid #ccc;
+}
+td{
+	border: 1px solid #ccc;
+}
+
+.blocked{
+	pointer-events: none;
+}
+
+td.empty{
+	background-color: white;
+}
+td.square{
+	background-color: silver;
+}
+td.mineClicked{
+	background-color: black;
+	border: 1px solid red;
+}
+
+td.numbered1{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: 0;
+}
+td.numbered2{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -100%;
+}
+td.numbered3{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -200%;
+}
+td.numbered4{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -300%;
+}
+td.numbered5{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -400%;
+}
+td.numbered6{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -500%;
+}
+td.numbered7{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -600%;
+}
+td.numbered8{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -700%;
+}
+td.numbered9{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -800%;
+}
+td.mine{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -900%;
+}
+td.flag{
+	background: url(../img/Sprites.png);
+	background-size: 1100% 100%;
+	background-position: -1000%;
+}
